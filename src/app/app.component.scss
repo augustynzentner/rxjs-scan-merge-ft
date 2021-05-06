@@ -1,0 +1,11 @@
+main {
+    min-height: 100vh;
+    text-align: center;
+    
+
+    #counter { background: #000; color: #3f51b5; font-size: 4rem; padding: 4rem; font-family:Consolas; }
+    #actions { width: 400px; margin: 0 auto; margin-top: 2rem;}
+
+    #actions > * { display: flex; justify-content: space-between; }
+    #actions > * > * { flex-grow: 1; margin: 0 1rem; }
+}
